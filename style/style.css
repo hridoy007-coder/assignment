@@ -36,24 +36,73 @@
 }
 
 /* my previous year */
-.tips{
-display: flex;
-margin: 130px 206px;
-gap: 50px;
+.tips {
+    display: flex;
+    margin: 130px 206px;
+    gap: 50px;
 }
-.tips-group{
+
+.tips-group {
     padding-top: 130px;
 }
-.tips-title{
+
+.tips-title {
     font-size: 40px;
     color: #151414;
+    padding-left: 40px;
 }
-.tips-description{
+
+.tips-description {
     font-size: 16px;
     color: #444343;
+    padding-left: 40px;
+}
+
+ul li {
+    list-style: none;
 }
 
 .image {
     width: 569px;
     height: 600px;
+}
+
+/* plan section */
+.plan {
+    display: flex;
+    /* margin: 125px 230px; */
+    padding: 125px 230px;
+    justify-content: space-between;
+}
+
+.plan-info {
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 30px;
+    color: #151414;
+}
+
+.pian-description {
+    color: #737272;
+    font-size: 25px;
+}
+
+/* contuct section */
+.contact-section {
+    background: linear-gradient(90deg, #ff0c0c 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
+    margin: 124px 230px;
+    width: 1140px;
+    height: 300px;
+
+}
+
+.contact-title {
+    color: white;
+}
+
+section .btn-primary {
+    background-color: white;
+    color: #ff0c0c;
 }
