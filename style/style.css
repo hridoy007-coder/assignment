@@ -48,7 +48,7 @@
 
 .tips-title {
     font-size: 40px;
-    color: #151414;
+    color: #f80000;
     padding-left: 40px;
 }
 
@@ -56,6 +56,9 @@
     font-size: 16px;
     color: #444343;
     padding-left: 40px;
+}
+.color{
+    color: #f80000;
 }
 
 ul li {
@@ -70,13 +73,17 @@ ul li {
 /* plan section */
 .plan {
     display: flex;
-    /* margin: 125px 230px; */
     padding: 125px 230px;
     justify-content: space-between;
+    
 }
 
 .plan-info {
     text-align: center;
+    background-color: #ffefef;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
 
 .plan-title {
@@ -91,7 +98,7 @@ ul li {
 
 /* contuct section */
 .contact-section {
-    background: linear-gradient(90deg, #ff0c0c 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
+    background: linear-gradient(90deg, #f80000 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
     margin: 124px 230px;
     width: 1140px;
     height: 300px;
@@ -110,7 +117,7 @@ ul li {
 
 section .btn-primary {
     background-color: white;
-    color: #ff0c0c;
+    color: #f80000;
 }
 /* footer */
 .container{
@@ -120,7 +127,7 @@ section .btn-primary {
 }
 .footer-title{
     font-size: 45px;
-    color: #F8F8F8;
+    color: #f80000;
 }
 .footer-description{
     font-size: 16px;
@@ -131,7 +138,7 @@ section .btn-primary {
     font-size: 16px;
 }
 .sub-title{
-    color: #F8F8F8;
+    color: #f80000;
     font-size: 25px;
 }
 footer section input{
