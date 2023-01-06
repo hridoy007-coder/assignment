@@ -1,0 +1,59 @@
+.header {
+    background-image: url(../images/banner/banner2.png);
+    margin: 0;
+    height: 809px;
+
+
+}
+
+.banner {
+    text-align: right;
+    /* margin: 216px 230px 365px 845px; */
+    margin-right: 230px;
+    margin-left: 845px;
+    padding-top: 216px;
+
+}
+
+.banner-title {
+    font-size: 65px;
+    color: #151414;
+}
+
+.banner-description {
+    font-size: 16px;
+    padding-bottom: 32px;
+    color: #444343;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px 25px;
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+}
+
+/* my previous year */
+.tips{
+display: flex;
+margin: 130px 206px;
+gap: 50px;
+}
+.tips-group{
+    padding-top: 130px;
+}
+.tips-title{
+    font-size: 40px;
+    color: #151414;
+}
+.tips-description{
+    font-size: 16px;
+    color: #444343;
+}
+
+.image {
+    width: 569px;
+    height: 600px;
+}
