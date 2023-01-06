@@ -26,7 +26,7 @@
     color: #444343;
 }
 
-.btn-primary {
+.btn-primary{
     color: #FFFFFF;
     font-size: 20px;
     padding: 20px 25px;
@@ -98,11 +98,48 @@ ul li {
 
 }
 
+.contact {
+    padding: 25px 617px 59px 30px;
+}
+
 .contact-title {
     color: white;
+    font-size: 40px;
+
 }
 
 section .btn-primary {
     background-color: white;
     color: #ff0c0c;
+}
+/* footer */
+.container{
+    display: flex;
+    background: #151414;
+    /* gap: 20px; */
+}
+.footer-title{
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.footer-description{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.footer-info{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.sub-title{
+    color: #F8F8F8;
+    font-size: 25px;
+}
+footer section input{
+    padding: 20px 70px 20px 0px;
+}
+footer section .btn-primary{
+    margin-top: 16px;
+}
+.footer-container{
+    padding: 130px 230px;
 }
