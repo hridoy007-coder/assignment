@@ -99,7 +99,7 @@ ul li {
 
 /* contuct section */
 .contact-section {
-    background: linear-gradient(90deg, #ff0000 0%, rgba(241, 91, 34, 0) 100%), url('/images/watch.png');
+    background: linear-gradient(90deg, #ff0000 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
     border-radius: 8px;
     margin: 124px 230px;
     width: 1140px;
